@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/clarencelol/kernel_xiaomi_sm6250
           kernel-dir: msm-4.19
           kernel-branch: kinesis-extremev5
-          config: miatoll_defconfig
+          config: stock_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
