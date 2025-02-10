@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url:https://github.com/clarencelol/kernel_xiaomi_sm6250
+          kernel-url: https://github.com/clarencelol/kernel_xiaomi_sm6250
           kernel-dir: msm-4.19
           kernel-branch: kinesis-extremev5
           config: miatoll_defconfig
