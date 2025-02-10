@@ -327,7 +327,7 @@ runs:
                     else
                         export KVER=${{ inputs.ksu-version }}
                     fi
-                        curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s "$KVER"
+                        curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -s next "$KVER"
                     fi
                 fi
                 if [ ${{ inputs.ksu-lkm }} = true ]; then
